@@ -3,12 +3,12 @@ kind: WorkflowTemplate
 metadata:
   name: fetch hana data pipeline # executable id, must be unique across all your workflows (YAML files), please modify this to any value (e.g. code-pipeline-12345) if you are not the only user of your SAP AI Core instance.
   annotations:
-    scenarios.ai.sap.com/description: "Tutorial for fetch S4_HANA data"
-    scenarios.ai.sap.com/name: "Fetch S4_HANA Data"
-    executables.ai.sap.com/description: "Get S4_HANA Data"
-    executables.ai.sap.com/name: "S4_HANA Data"
+    scenarios.ai.sap.com/description: "Tutorial for fetch hana data"
+    scenarios.ai.sap.com/name: "Fetch hana Data"
+    executables.ai.sap.com/description: "Get hana Data"
+    executables.ai.sap.com/name: "hana Data"
   labels:
-    scenarios.ai.sap.com/id: "S4_HANA-data"
+    scenarios.ai.sap.com/id: "hana_data"
     ai.sap.com/version: "1.0"
 spec:
   imagePullSecrets:
